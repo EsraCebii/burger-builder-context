@@ -18,7 +18,9 @@ const Hamburger = ({ children }) => {
       value={{
         selectedIngredients,
         getCalculatedTotalPrice,
+        setSelectedIngredients,
         /* Component'lere gönderilmesi istenilen state değeri */
+
       }}
     >
       {children}
